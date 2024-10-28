@@ -6,7 +6,7 @@
     <title>Document</title>
     <style>
         .oyunalani{
-            background-color: green;
+            background-color: grey;
             height: 700px;
             width: 700px;
             position: absolute;
@@ -28,22 +28,32 @@
             width: 25px;
             height:25px;
             background-color: red;
+            border-style: solid none none none;
+            border-width: 10px;
+            border-radius: 10px;
             
         }
-       
+        .kuyruk{
+            width: 20px;
+            height: 20px;
+            border-radius: 20px;
+          
+            background-color: black;
+        }
+    
     
     </style>
 </head>
 <body>
-    <div class="oyunalani">
-        <div id="yilan" class="kutu"></div>
-    </div>
+    <p style="display: contents;" id="durakla"></p>
+    <div id="oyunalani" class="oyunalani">
         
-  
-    
+        <div id="yilan" class="kutu" >
 
+        </div>
     </div>
-<script src="hareket.js"></script>
+<script src="hareket.js"></script> 
 <script src="script.js"></script>
+<script src="ekleme.js"></script>
 </body>
 </html>
